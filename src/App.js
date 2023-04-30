@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import LocalPagination from './components/LocalPagination';
+import LocalSearch from './components/LocalSearch';
+import LocalSearchWithFilter from './components/LocalSearchWithFilter';
+import LocalSearchWithFilterAndPagination from './components/LocalSearchWithFilterAndPagination';
+import MuiSearchAndPagination from './components/material-ui/MuiSearchAndPagination';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MuiSearchAndPagination />
+
+      {/* <LocalPagination /> */}
+      {/* <LocalSearch /> */}
+      {/* <LocalSearchWithFilter /> */}
+      {/* <LocalSearchWithFilterAndPagination /> */}
     </div>
   );
 }
