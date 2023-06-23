@@ -13,7 +13,7 @@ function App() {
       {/* <LocalPagination /> */}
       {/* <LocalSearch /> */}
       {/* <LocalSearchWithFilter /> */}
-      {/* <LocalSearchWithFilterAndPagination /> */}
+      <LocalSearchWithFilterAndPagination />
     </div>
   );
 }
